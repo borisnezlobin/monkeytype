@@ -10,10 +10,12 @@
     grid-template-columns: 1fr auto;
     gap: 1rem;
     font-size: 1.25rem;
-    .title {
+    h1 {
       font-size: 1.25em;
       grid-column: span 2;
       color: var(--sub-color);
+      margin: 0;
+      font-weight: normal;
     }
     .button {
       height: auto;
